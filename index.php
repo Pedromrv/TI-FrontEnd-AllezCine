@@ -14,6 +14,7 @@
 
 		<!-- My CSS -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="PgwSlider-master/pgwslider.css">
 
 	</head>
 	<body>
@@ -86,12 +87,27 @@
 
 			</section>
 
-				<div class="jumbotron text-center">
-					<h1>Lorem Ipsum Rocks !</h1>
-				</div>
-
 			<header>
 				
+				<div>
+					<ul class="pgwSlider">
+						<li>
+							<img src="img/batman-vs-superman.jpeg" data-description="Do you Bleed ?">
+							<span>BATMAN VS SUPERMAN The New Dc Reload</span>
+						</li>
+
+						<li>
+							<img src="img/mad-max.jpg" data-description="Fury Road">
+							<span>When You Think you kwnow Madness</span>
+						</li>
+
+						<li>
+							<img src="img/xmen-first-class.jpg" data-description="Last Xmen Movie">
+							<span>The Beginning Starts When The End Is Near...Again</span>
+						</li>
+					</ul>
+				</div>
+
 			</header>
 
 			<aside id="mySidenav" class="sidenav">
@@ -133,6 +149,6 @@
 			</footer>
 
 		</div>
-
+		<script type="text/javascript" src="PgwSlider-master/pgwslider.min.js"></script>
 	</body>
 </html>
