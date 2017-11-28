@@ -4,11 +4,18 @@
 <head>
   <meta charset="utf-8">
   <title>Allez Cine</title>
+  <!-- bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!--css-->
   <link rel="stylesheet" type="text/css" href="allezcine.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 </head>
 
 <body>
+  <!-- onLoad="popup('popup/popup.html', 'ad')" -->
   <div class="container-fluid">
 
     <section id="logo">
@@ -23,7 +30,7 @@
         <div class="col-lg-4"><a href="callto:01234567890">&#9742; (+100)123 345 653  </a><button type="phone">LOGIN</button></div>
       </div>
     </section>
-    <section id="bar">
+    <section id="navigation-bar">
 
     </section>
     <header>
@@ -33,42 +40,120 @@
       <section class="films">
         <div class="menu">
           <div class="title">
-            <h2>
+            <h3>
               <a href=""><span>FEATURED MOVIES</span></a>
-          </h2>
+          </h3>
           </div>
-          <ul class="tabs">
-            <li>
-              <div class="active"><a href="#"><span>ALL</span></a>
-              </div>
-            </li>
-            <li>
-              <div><a href="#"><span>Actions</span></a>
-              </div>
-            </li>
-            <li>
-              <div><a href="#"><span>Policiers</span></a></div>
-            </li>
-          </ul>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default"><a href="#"><span>ALL</span></a>
+              </button>
+            <button type="button" class="btn btn-default"><a href="#"><span>Actions</span></a>
+              </button>
+            <button type="button" class="btn btn-default"><a href="#"><span>Policiers</span></a>
+              </button>
+          </div>
         </div>
-        <div class="listfilms">
-          <ul>
-            <!--Simple structure for the film block-->
-            <li class="filmblock">
-              <div data-title="">
-                <div class="picture">
-                  <img src="" alt="" width="" height="">
-                </div>
-                <div class="title">
-                  <a href="">Film name</a>
-                </div>
-                <div class="date">Date</div>
+        <br>
+        <br>
+        <div class="container">
+
+          <!--Simple structure for the film block-->
+          <!-- <ldiv class="filmblock">
+            <div data-title="">
+              <div class="picture">
+                <img src="images/Survivestyle5-2004-comedie.jpg" alt="" width="" height="">
               </div>
-            </li>
-            <!--Depending on how many films we display we copy paste as many as
+              <div class="title">
+                <a href="">Film name</a>
+              </div>
+              <div class="date">Dates</div>
+            </div>
+        </div> -->
+          <!--Depending on how many films we display we copy paste as many as
           we need-->
-          </ul>
-        </div>
+
+          <div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="images/Survivestyle5-2004-comedie.jpg" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="images/Survivestyle5-2004-comedie.jpg" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="images/Survivestyle5-2004-comedie.jpg" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="images/Survivestyle5-2004-comedie.jpg" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="images/Survivestyle5-2004-comedie.jpg" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="images/Survivestyle5-2004-comedie.jpg" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="images/Survivestyle5-2004-comedie.jpg" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="images/Survivestyle5-2004-comedie.jpg" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
 
       </section>
       <section id="ftmovies">
@@ -88,7 +173,8 @@
 
     </footer>
 
-  </div>
+    </div>
+    <script type="text/javascript" src="js/alle_cine.js"></script>
 </body>
 
 </html>
