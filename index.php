@@ -153,6 +153,302 @@
 				</section>
 
 				<section id="features-movies">
+
+					<div class="movies-container">
+
+						<h4>FEATURED MOVIES</h4>
+
+						<div class="movies">
+
+							<div class="btn-group">
+							 	<button type="button" class="btn btn-default">All</button>
+							  	<button type="button" class="btn btn-default">Action</button>
+							  	<button type="button" class="btn btn-default">Policier</button>
+							</div>
+
+							<br>
+							
+							<div class="twelves-movies">
+
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+								
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								
+							</div>
+
+							<div id="more-featured-movies">
+
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+								
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/oss-117.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								
+							</div>
+
+							<div class="toggle-movies text-center">
+								<button class="btn btn-default btn-lg" id="btn-featured">PLUS DE FILMS</button>
+							</div>
+							
+						</div>
+						
+					</div>
 					
 				</section>
 

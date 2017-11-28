@@ -8,5 +8,12 @@ $(document).ready(
 			}
 		);
 
+		$('#btn-featured').click(
+			function () {
+				$('#more-featured-movies').slideToggle('slow');
+				$('#btn-featured').text('MOINS DE FILMS');
+			}
+		);
+
 	}
 );
