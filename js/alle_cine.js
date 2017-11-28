@@ -2,8 +2,9 @@ $(document).ready(
 	function () {
 		$('.pgwSlider').pgwSlider(
 			{
-				 transitionDuration : 1000,
+				 transitionDuration : 2000,
 				 maxHeight: 600,
+				 intervalDuration: 5000
 			}
 		);
 
