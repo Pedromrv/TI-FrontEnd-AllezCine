@@ -1,6 +1,11 @@
 $(document).ready(
 	function () {
-		var pgwSlider = $('.pgwSlider').pgwSlider();
+		$('.pgwSlider').pgwSlider(
+			{
+				 transitionDuration : 1000,
+				 maxHeight: 600,
+			}
+		);
 
 	}
 );

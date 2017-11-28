@@ -88,25 +88,51 @@
 			</section>
 
 			<header>
-				
-				<div>
-					<ul class="pgwSlider">
-						<li>
-							<img src="img/batman-vs-superman.jpeg" data-description="Do you Bleed ?">
-							<span>BATMAN VS SUPERMAN The New Dc Reload</span>
-						</li>
+	
+				<ul class="pgwSlider">
+					
+					<li>
 
-						<li>
-							<img src="img/mad-max.jpg" data-description="Fury Road">
-							<span>When You Think you kwnow Madness</span>
-						</li>
+						<img src="img/drive-movie-6.jpg" data-description="The Words Can't Describe It">
+						<span>DRIVE</span>
 
-						<li>
-							<img src="img/xmen-first-class.jpg" data-description="Last Xmen Movie">
-							<span>The Beginning Starts When The End Is Near...Again</span>
-						</li>
-					</ul>
-				</div>
+					</li>
+
+					<li>
+
+						<img src="img/guardians-of-the-galaxy.jpg" data-description="One Of The Best From MCU">
+						<span>GUARDIANS OF THE GALAXY</span>
+
+					</li>
+
+					<li>
+
+						<img src="img/interstellar.jpg" data-description="...Just Watch it">
+						<span>INTERSTELLAR</span>
+
+					</li>
+
+					<li>
+
+						<img src="img/mad-max-fury-road.jpg" data-description="True Jewell Of Sci-fi - A Thing Of Beauty">
+						<span>MAD MAX FURY ROAD</span>
+
+					</li>
+
+					<li>
+
+						<img src="img/the-walking-dead.jpg" data-description="You Need To Learn About Lucille">
+						<span>THE WALKING DEAD SEASON 7</span>
+
+					</li>
+
+					<li>
+						
+						<img src="img/vikings.jpg" data-description="Ragnar And His Friends Are Not Done With England">
+						<span>VIKINGS SEASON 3</span>
+					</li>
+
+				</ul>
 
 			</header>
 
@@ -149,6 +175,8 @@
 			</footer>
 
 		</div>
+
 		<script type="text/javascript" src="PgwSlider-master/pgwslider.min.js"></script>
+		<script type="text/javascript" src="js/alle_cine.js"></script>
 	</body>
 </html>
