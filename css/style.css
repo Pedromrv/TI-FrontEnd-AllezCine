@@ -177,7 +177,8 @@ background-color: #555
 }
 
 .movies-container > h4 {
-  border-left: 3px solid #F07D0C;
+  border-left: 4px solid #F07D0C;
+  padding-left: 15px;
   display: inline-block;
 }
 
