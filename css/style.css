@@ -193,7 +193,7 @@ background-color: #555
   margin-top: 15px;
 }
 
-#more-featured-movies {
+#more-featured-movies, #more-featured-series {
   display: none;
 }
 

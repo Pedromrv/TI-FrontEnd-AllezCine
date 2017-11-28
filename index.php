@@ -443,7 +443,7 @@
 							</div>
 
 							<div class="toggle-movies text-center">
-								<button class="btn btn-default btn-lg" id="btn-featured">PLUS DE FILMS</button>
+								<button class="btn btn-default btn-lg" id="btn-featured-plus">PLUS DE FILMS</button>
 							</div>
 							
 						</div>
@@ -453,6 +453,302 @@
 				</section>
 
 				<section id="features-series">
+
+					<div class="movies-container">
+
+						<h4>FEATURED SERIES TV</h4>
+
+						<div class="movies">
+
+							<div class="btn-group">
+							 	<button type="button" class="btn btn-default">All</button>
+							  	<button type="button" class="btn btn-default">Action</button>
+							  	<button type="button" class="btn btn-default">Policier</button>
+							</div>
+
+							<br>
+							
+							<div class="twelves-movies">
+
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+								
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								
+							</div>
+
+							<div id="more-featured-series">
+
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+								
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								<div class="panel panel-default">
+
+									<div class="panel-body">
+										<img class="img-responsive" src="img/the-it-crowd.jpg">
+									</div>
+									<div class="panel-footer">
+										<h4 class="text-center">The It Crowd</h4>
+										<p>2006</p>
+									</div>
+									
+								</div>
+								
+							</div>
+
+							<div class="toggle-movies text-center">
+								<button class="btn btn-default btn-lg" id="btn-series-plus">PLUS DE SERIES</button>
+							</div>
+							
+						</div>
+						
+					</div>
 					
 				</section>
 
