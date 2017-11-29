@@ -8,9 +8,20 @@
   width: 80%;
 }
 
+.row {
+  position: relative;
+}
+
 .btn-default, .panel-default {
   border-radius: 0;
 }
+
+
+
+
+        /* NAVBAR */
+
+
 
 .navbar-default .navbar-nav > li > a {
   color: white;
@@ -95,10 +106,9 @@
     margin-top: 250px;
    }
 
-   .panel-default {
+   .panel-default, .panel-footer {
     max-width: 300px;
    }
-
 }
  
 @media (min-width: 768px) {
@@ -113,10 +123,17 @@
     max-width: 170px;
    }
 
+  .panel-footer {
+    max-width: 167px;
+  }
+
 }  
 
 
-/* SIDEBAR */
+
+        /* SIDEBAR */
+
+
 
 #mySidenav a {
 position: relative;
@@ -183,7 +200,7 @@ background-color: #555
 }
 
 .movies {
-  width: 90%;
+  width: 90% !important;
   margin: 20px auto 0 auto;
 
   
@@ -194,12 +211,75 @@ background-color: #555
   margin-top: 15px;
 }
 
+.panel-footer {
+  padding-bottom: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.panel-footer p {
+  margin: 0;
+}
+
+.panel-footer span {
+  text-align: right;
+}
+
 #more-featured-movies, #more-featured-series {
   display: none;
 }
 
-.toggle-movies button{
+.toggle-movies button {
   background-color: #F07D0C;
   color: white;
   border: 0;
+}
+
+
+
+          /* SHOP MOVIES */
+
+
+
+tr :first-child {
+  min-width: 150px;
+}
+
+#shop-trailer, #shop-description {
+  padding: 0;
+}
+
+#shop-description {
+  padding-left: 10px;
+  height: 400px;
+  background-color: #F07D0C;
+
+  font-size: 1.25em;
+  color: white;
+}
+
+#shop-description h4 {
+  margin-top: 60px;
+}
+
+table {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+#shop-description h4, #shop-description table tr td:first-child {
+  color: #2F2D2D;
+  font-weight: bold;
+}
+
+.embed-responsive {
+  height: 400px;
+}
+
+#shop-posters {
+  width: 95%;
+  margin: 0 auto;
 }

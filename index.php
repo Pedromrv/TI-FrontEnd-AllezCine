@@ -252,10 +252,10 @@
 								<div class="panel panel-default policier">
 
 									<div class="panel-body">
-										<img class="img-responsive" src="img/la_cite_de_la_peur.jpg">
+										<img class="img-responsive" src="img/samurai-cop-2.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<h4 class="text-center">Samurai Cop 2</h4>
 										<p>2006</p>
 									</div>
 									
@@ -263,10 +263,10 @@
 								<div class="panel panel-default policier">
 
 									<div class="panel-body">
-										<img class="img-responsive" src="img/la_cite_de_la_peur.jpg">
+										<img class="img-responsive" src="img/samurai-cop-2.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<h4 class="text-center">Samurai Cop 2</h4>
 										<p>2006</p>
 									</div>
 									
@@ -274,10 +274,10 @@
 								<div class="panel panel-default policier">
 
 									<div class="panel-body">
-										<img class="img-responsive" src="img/la_cite_de_la_peur.jpg">
+										<img class="img-responsive" src="img/samurai-cop-2.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<h4 class="text-center">Samurai Cop 2</h4>
 										<p>2006</p>
 									</div>
 									
@@ -285,10 +285,10 @@
 								<div class="panel panel-default policier">
 
 									<div class="panel-body">
-										<img class="img-responsive" src="img/la_cite_de_la_peur.jpg">
+										<img class="img-responsive" src="img/samurai-cop-2.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<h4 class="text-center">Samurai Cop 2</h4>
 										<p>2006</p>
 									</div>
 									
@@ -296,10 +296,10 @@
 								<div class="panel panel-default policier">
 
 									<div class="panel-body">
-										<img class="img-responsive" src="img/la_cite_de_la_peur.jpg">
+										<img class="img-responsive" src="img/samurai-cop-2.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<h4 class="text-center">Samurai Cop 2</h4>
 										<p>2006</p>
 									</div>
 									
@@ -312,10 +312,10 @@
 								<div class="panel panel-default policier">
 
 									<div class="panel-body">
-										<img class="img-responsive" src="img/la_cite_de_la_peur.jpg">
+										<img class="img-responsive" src="img/samurai-cop-2.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<h4 class="text-center">Samurai Cop 2</h4>
 										<p>2006</p>
 									</div>
 								
@@ -323,10 +323,10 @@
 								<div class="panel panel-default policier">
 
 									<div class="panel-body">
-										<img class="img-responsive" src="img/la_cite_de_la_peur.jpg">
+										<img class="img-responsive" src="img/samurai-cop-2.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<h4 class="text-center">Samurai Cop 2</h4>
 										<p>2006</p>
 									</div>
 									
@@ -337,7 +337,7 @@
 										<img class="img-responsive" src="img/drawn-tentacle-squid.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<h4 class="text-center">Squid no Lovo</h4>
 										<p>2006</p>
 									</div>
 									
@@ -348,7 +348,7 @@
 										<img class="img-responsive" src="img/drawn-tentacle-squid.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<h4 class="text-center">Squid no Lovo</h4>
 										<p>2006</p>
 									</div>
 									
@@ -359,7 +359,7 @@
 										<img class="img-responsive" src="img/drawn-tentacle-squid.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<h4 class="text-center">Squid no Lovo</h4>
 										<p>2006</p>
 									</div>
 									
@@ -370,7 +370,7 @@
 										<img class="img-responsive" src="img/drawn-tentacle-squid.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<h4 class="text-center">Squid no Lovo</h4>
 										<p>2006</p>
 									</div>
 									
@@ -381,7 +381,7 @@
 										<img class="img-responsive" src="img/drawn-tentacle-squid.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<h4 class="text-center">Squid no Lovo</h4>
 										<p>2006</p>
 									</div>
 									
@@ -392,7 +392,7 @@
 										<img class="img-responsive" src="img/drawn-tentacle-squid.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<h4 class="text-center">Squid no Lovo</h4>
 										<p>2006</p>
 									</div>
 									
@@ -403,7 +403,7 @@
 										<img class="img-responsive" src="img/drawn-tentacle-squid.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
+										<h4 class="text-center">Squid no Lovo</h4>
 										<p>2006</p>
 									</div>
 									
@@ -476,10 +476,10 @@
 								<div class="panel panel-default action">
 
 									<div class="panel-body">
-										<img class="img-responsive" src="img/the-it-crowd.jpg">
+										<img class="img-responsive" src="img/blacklist.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">The It Crowd</h4>
+										<h4 class="text-center">Blacklist</h4>
 										<p>2006</p>
 									</div>
 								
@@ -487,10 +487,10 @@
 								<div class="panel panel-default action">
 
 									<div class="panel-body">
-										<img class="img-responsive" src="img/the-it-crowd.jpg">
+										<img class="img-responsive" src="img/blacklist.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">The It Crowd</h4>
+										<h4 class="text-center">Blacklist</h4>
 										<p>2006</p>
 									</div>
 									
@@ -498,10 +498,10 @@
 								<div class="panel panel-default action">
 
 									<div class="panel-body">
-										<img class="img-responsive" src="img/the-it-crowd.jpg">
+										<img class="img-responsive" src="img/blacklist.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">The It Crowd</h4>
+										<h4 class="text-center">Blacklist</h4>
 										<p>2006</p>
 									</div>
 									
@@ -509,10 +509,10 @@
 								<div class="panel panel-default action">
 
 									<div class="panel-body">
-										<img class="img-responsive" src="img/the-it-crowd.jpg">
+										<img class="img-responsive" src="img/blacklist.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">The It Crowd</h4>
+										<h4 class="text-center">Blacklist</h4>
 										<p>2006</p>
 									</div>
 									
@@ -520,10 +520,10 @@
 								<div class="panel panel-default action">
 
 									<div class="panel-body">
-										<img class="img-responsive" src="img/the-it-crowd.jpg">
+										<img class="img-responsive" src="img/blacklist.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">The It Crowd</h4>
+										<h4 class="text-center">Blacklist</h4>
 										<p>2006</p>
 									</div>
 									
@@ -531,10 +531,10 @@
 								<div class="panel panel-default action">
 
 									<div class="panel-body">
-										<img class="img-responsive" src="img/the-it-crowd.jpg">
+										<img class="img-responsive" src="img/blacklist.jpg">
 									</div>
 									<div class="panel-footer">
-										<h4 class="text-center">The It Crowd</h4>
+										<h4 class="text-center">Blacklist</h4>
 										<p>2006</p>
 									</div>
 									
@@ -756,6 +756,76 @@
 				</section>
 
 				<section id="shop-movies">
+
+					<div class="movies-container">
+
+						<h4>SHOP MOVIES</h4>
+						
+						<div class="movies">
+
+							<div class="row">
+
+								<div id="shop-trailer" class="col-sm-12 col-md-7 embed-responsive embed-responsive-16by9">
+								</div>
+
+								<div id="shop-description" class="col-sm-12 col-md-5">
+									
+									<h4 class="text-center"></h4>
+
+									<table>
+										
+										<tr>
+											<td>
+												<p>Résumé</p>
+											</td>
+											<td>
+												<p id="resume"></p>
+											</td>
+										</tr>
+
+										<tr>
+											<td>
+												<p>Date de sortie</p>
+											</td>
+											<td>
+												<p id="release-date"></p>
+											</td>
+										</tr>
+
+										<tr>
+											<td>
+												<p>Genre</p>
+											</td>
+											<td>
+												<p id="genre"></p>
+											</td>
+										</tr>
+
+										<tr>
+											<td>
+												<p>Prix</p>
+											</td>
+											<td>
+												<p id="price"></p>
+											</td>
+										</tr>
+
+									</table>
+									
+								</div>
+							</div>
+
+							<div class="row">
+
+								<div id="shop-posters">
+									
+								</div>
+								
+							</div>
+
+						</div>
+
+					</div>
 					
 				</section>
 
