@@ -1,34 +1,93 @@
-
-body{
+body {
   text-align: center;
 }
-div .row{
+
+div .row {
   margin-top: 20px;
-  }
+}
+
 input[type="text"] {
-  border-radius: 50px 0px 0px 50px;
-  border-style: none;
-  color: black;
-  background-color: #cfd4d5;
-  height: 25px;
+  outline: none;
+  border: none;
+  background: #EFEFEF;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  width: 78%;
+  float: left;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 
 button[type="submit"] {
-    height: 25px;
-    width: 50px;
-    background: Black;
-    color: white;
-    border: 0;
-    -webkit-appearance: none;
-    border-radius: 0px 50px 50px 0px;
-  }
+  outline: none;
+  border: none;
+  background: #212121;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #fff;
+  width: 22%;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
 
-  button[type="phone"] {
-      background: orange;
-      color:white;
-      height: 40px;
-      width: 80px;
-  }
-  #searchbar{
-    height: 25px;
-  }
+button[type="phone"] {
+  background: orange;
+  color: white;
+  height: 40px;
+  width: 80px;
+}
+
+.title {
+  margin-left: 15px;
+  border-left: 3px solid orange;
+  text-align: left;
+  padding: 10px;
+}
+
+.btn-group{
+  float: left;
+  margin-left: 120px;
+}
+
+.container {
+  /*border: 3px solid #73AD21;*/
+  margin: auto;
+}
+
+.filmname{
+  display: inline-block;
+}
+
+.button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.seguncontainer{
+  /*border: 3px solid #73AD21;*/
+}
+
+.col-md-3{
+  background-color: black;
+  color: white;
+}
+
+#searchbar {
+  height: 25px;
+}
+
+
+
+form{
+  margin:auto;
+}
