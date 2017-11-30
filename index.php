@@ -32,57 +32,57 @@
 			<section id="navigation-bar">
 
 				<div id="navbar">    
-				  <nav class="navbar navbar-default navbar-static-top" role="navigation">
-				            <div class="navbar-header">
-				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-				                    <span class="sr-only">Toggle navigation</span>
-				                    <span class="icon-bar"></span>
-				                    <span class="icon-bar"></span>
-				                    <span class="icon-bar"></span>
-				                </button>
-				            </div>
-				            
-				            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+				  	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+			                    <span class="sr-only">Toggle navigation</span>
+			                    <span class="icon-bar"></span>
+			                    <span class="icon-bar"></span>
+			                    <span class="icon-bar"></span>
+			                </button>
+			            </div>
+			            
+			            <div class="collapse navbar-collapse" id="navbar-collapse-1">
 
-				                <ul class="nav navbar-nav text-center">
-									
-				                    <li class="empty-lg"></li>
-									
-				                    <li><a href="#">HOME</a></li>
+			                <ul class="nav navbar-nav text-center">
+								
+			                    <li class="empty-lg"><span></span></li>
+								
+			                    <li><a href="#">HOME</a></li>
 
-				                    <li class="dropdown">
-				                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Films <b class="caret"></b></a> 
-				                      
-				                        <ul class="dropdown-menu">
-				                            <li><a href="#">Action</a></li>
-				                            <li><a href="#">Adventure</a></li>
-				                            <li><a href="#">Drama</a></li>                                   
-				                        </ul>
+			                    <li class="dropdown">
+			                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Films <b class="caret"></b></a> 
+			                      
+			                        <ul class="dropdown-menu">
+			                            <li><a href="#">Action</a></li>
+			                            <li><a href="#">Adventure</a></li>
+			                            <li><a href="#">Drama</a></li>                                   
+			                        </ul>
 
-				                    </li>
+			                    </li>
 
-				                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Séries<b class="caret"></b></a>
+			                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Séries<b class="caret"></b></a>
 
-				                        <ul class="dropdown-menu">
-				                            <li><a href="#">Action</a></li>
-				                            <li><a href="#">Adventure</a></li>
-				                            <li><a href="#">Drama</a></li>	                                                           
-				                        </ul>
+			                        <ul class="dropdown-menu">
+			                            <li><a href="#">Action</a></li>
+			                            <li><a href="#">Adventure</a></li>
+			                            <li><a href="#">Drama</a></li>	                                                           
+			                        </ul>
 
-				                    </li>
+			                    </li>
 
-				                    <li class="empty"></li>
-				                    <li class="empty"></li>
-				                    <li class="empty"></li>
-				                    <li class="empty"></li>
+			                    <li class="empty"></li>
+			                    <li class="empty"></li>
+			                    <li class="empty"></li>
+			                    <li class="empty"></li>
 
-				                    <li class="empty-lg"></li>
+			                    <li class="empty-lg"><span></span></li>
 
 
-				                </ul>
+			                </ul>
 
-				            </div><!-- /.navbar-collapse -->
-				        </nav>
+			            </div><!-- /.navbar-collapse -->
+			        </nav>
 				</div>
 
 			</section>
@@ -148,7 +148,29 @@
 				
 			<main class="container">
 				
-				<section id="films">
+				<section>
+
+					<div id="films">
+
+						<div id="screen" class="modal fade">
+							<div class="modal-dialog">
+								
+								<div class="modal-content">
+									
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="text-center"></h4>
+									</div>
+									<div class="modal-body">
+										<!-- Here comes the iframe-->
+									</div>
+									
+								</div>
+
+							</div>
+						</div>
+
+					</div>
 					
 				</section>
 
@@ -820,7 +842,7 @@
 								<div id="shop-posters">
 									
 								</div>
-								
+
 							</div>
 
 						</div>

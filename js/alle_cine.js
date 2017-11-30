@@ -1,7 +1,7 @@
 $(document).ready(
 	function () {
 
-		
+
 		$(".pgwSlider").pgwSlider(
 			{
 				 transitionDuration : 2000,
@@ -17,7 +17,7 @@ $(document).ready(
 
 		$("#btn-featured-plus").click(
 			function () {
-				$("#more-featured-movies").slideToggle("slow");
+				$("#more-featured-2").slideToggle("slow");
 
 				if ($(this).attr('id') == 'btn-featured-plus') {
 					$(this).text("MOINS DE FILMS");
@@ -56,6 +56,7 @@ $(document).ready(
 
 
 		function displayGenre (location, genre) {
+
 			var myQuery = location + ' .panel-default';
 			$(myQuery).each(
 				function () {
@@ -128,9 +129,12 @@ $(document).ready(
 
 
 
-//SHOP MOVIES DISPLAY
 
-		var moviesForSale = [
+//FILMS
+
+
+
+		var newRelease = [
 			{
 				title		: 'Drive',
 				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -152,7 +156,7 @@ $(document).ready(
 			},
 
 			{
-				title		: 'Intertellar',
+				title		: 'Interstellar',
 				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
 				release_date: '2015',
 				genre		: 'sci-fi',
@@ -192,8 +196,107 @@ $(document).ready(
 			}
 		];
 
+		function displayNewRelease (movie) {
+
+			$('.modal-header h4').text(movie.title);
+			$('.modal-body')	 .html(movie.trailer);
+		}
+
+		for (var i = 0; i < newRelease.length; i++) {
+
+			var myDiv = document.createElement('div');
+			myDiv.classList.add('panel');
+			myDiv.classList.add('panel-default');
+			myDiv.dataset.toggle = 'modal';
+			myDiv.dataset.target = '#screen';
+			myDiv.id = i;
+
+			myDiv.innerHTML = 	'<div class="panel-body">' +
+									'<img class="img-responsive" src="' + newRelease[i].poster + '">' +
+								'</div>' +
+								'<div class="panel-footer">' +
+									'<h4 class="text-center">' + newRelease[i].title + '</h4>' +
+									'<p>' + newRelease[i].release_date + 
+								'</div>';
+			
+			myDiv.addEventListener('click', 
+				function () {
+					displayNewRelease(newRelease[this.id]);
+				}
+			);
+
+			$('#films').append(myDiv);
+		}
+
+		$('#screen').on('hidden.bs.modal', 
+			function () {
+			    $("#screen iframe").attr("src", $("#screen iframe").attr("src"));
+			}
+		);
+
+
+
+
+
+//SHOP MOVIES DISPLAY
+
+
+
+		var moviesForSale = [
+			{
+				title		: 'Star Wars VIII',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2015',
+				genre		: 'sci-fi',
+				price		: '15 euro',
+				poster		: 'img/star-wars-8-mini.jpg',
+				trailer		: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Q0CbN8sfihY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>'
+			},
+
+			{
+				title		: 'Punisher',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2015',
+				genre		: 'action',
+				price		: '15 euros',
+				poster		: 'img/punisher-mini.jpg',
+				trailer		: '<iframe width="560" height="315" src="https://www.youtube.com/embed/OMW_dPtm7Bo" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>'
+			},
+
+			{
+				title		: 'Justice League',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2015',
+				genre		: 'sci-fi',
+				price		: '15 euro',
+				poster		: 'img/justice-league-mini.jpg',
+				trailer		: '<iframe width="560" height="315" src="https://www.youtube.com/embed/r9-DM9uBtVI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>'
+			},
+
+			{
+				title		: 'Iron Sky 2',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2015',
+				genre		: 'action/sci-fi',
+				price		: '15 euro',
+				poster		: 'img/iron-sky-mini.jpg',
+				trailer		: '<iframe width="560" height="315" src="https://www.youtube.com/embed/JKPwtDjzJMI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>'
+			},
+
+			{
+				title		: 'Avengers Infinity War',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2015',
+				genre		: 'sci-fi',
+				price		: '65 euro',
+				poster		: 'img/infinity-war-mini.png',
+				trailer		: '<iframe width="560" height="315" src="https://www.youtube.com/embed/6ZfuNTqbHE8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>'
+			}
+			
+		];
+
 		function displayShopMovie (movie) {
-			console.log(movie);
+
 			$('#shop-trailer')		 .html(movie.trailer);
 			$('#shop-description h4').text(movie.title);
 			$('#resume')			 .text(': ' + movie.resume);
@@ -217,7 +320,6 @@ $(document).ready(
 									'<p>' + moviesForSale[i].release_date + '<span class="pull-right">' + moviesForSale[i].price + '</span>' + '</p>' +
 								'</div>';
 			
-			var filmId = i;
 			myDiv.addEventListener('click', 
 				function () {
 					displayShopMovie(moviesForSale[this.id]);
