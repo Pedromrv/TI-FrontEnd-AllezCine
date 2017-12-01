@@ -229,7 +229,7 @@ function checkAge()
    var today = new Date;
 
    if ( (today.getTime() - theirDate.getTime()) < 0) {
-   alert("You are too young to enter this site!");
+   window.location.href = 'http://www.nickjr.tv/';
    return false;
    }
    else {

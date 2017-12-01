@@ -1,6 +1,47 @@
 $(document).ready(
 	function () {
 
+
+
+//AGE MODAL
+
+
+		$('#myModal').css('display', 'block');
+		$('main').css('display', 'none');
+
+		function checkAge() {
+
+			var min_age = 18;
+
+
+			var year 	= parseInt(document.forms["age_form"]["year"].value);
+			var month 	= parseInt(document.forms["age_form"]["month"].value) - 1;
+			var day 	= parseInt(document.forms["age_form"]["day"].value);
+
+			var theirDate = new Date((year + min_age), month, day);
+			var today = new Date;
+
+			if ( (today.getTime() - theirDate.getTime()) < 0) {
+				console.log('Youre a baby');
+				window.location.href = 'http://www.nickjr.tv/';
+			}
+			else {
+				console.log('Youre a grown up');
+				$('#myModal').css('display', 'none');
+				$('main').css('display', 'block');
+			}
+		}
+
+		$('#go').click(
+			function (e) {
+				e.preventDefault();
+				checkAge();
+			}
+		);
+
+
+
+
 // SLIDE-SHOW
 
 
@@ -110,7 +151,6 @@ $(document).ready(
 				for (var j = 0; j < column; j++) {
 
 					var k = Math.floor(Math.random() * tab.length);
-					console.log(tab[k].title);
 					$('#' + locationId).append(
 
 						'<div class="panel panel-default ' + tab[k].genre +'">' +
