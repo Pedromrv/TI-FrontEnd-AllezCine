@@ -4,7 +4,6 @@
 }
 
 .container {
-  margin-top: 600px;
   width: 80%;
 }
 
@@ -12,7 +11,7 @@
   position: relative;
 }
 
-.btn-default, .panel-default {
+.btn-default, .panel-default, .panel-footer {
   border-radius: 0;
 }
 
@@ -157,7 +156,7 @@ left: 0;
 
 #mySidenav {
   position: fixed;
-  top: 300px; left:0;
+  top: 450px; left:0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -186,7 +185,26 @@ background-color: #555
 }
 
 
+
+
+/* HEADER */
+
+
+
+/*#slidey {
+  display: none;
+}*/
+
+
+
+
+
 /* MOVIES */
+
+
+
+
+
 
 .movies-container {
   position: relative;
@@ -236,9 +254,36 @@ background-color: #555
   border: 0;
 }
 
+
+
+
+
           /* FILMS */
 
 
+
+
+
+#films .panel-default, #shop-posters .panel-default {
+  margin: 0 1px;
+  max-width: 200px;
+  border: 0;
+  color:#F07D0C; 
+}
+
+
+#films .panel-body, #shop-posters .panel-body {
+  padding: 15px 0;
+}
+
+#films .panel-body:hover, #shop-posters .panel-default:hover {
+  cursor: pointer;
+}
+
+#films .panel-footer, #shop-posters .panel-footer {
+  max-width: 200px;
+  background-color:  #2F2D2D;
+}
 
 #screen {
   position: fixed;
@@ -259,8 +304,8 @@ background-color: #555
   color: #F07D0C;
 }
 
-#films {
- width: 90%;
+#films, #shop-posters {
+ width: 93%;
  margin: 30px auto 0 auto;
 }
 
@@ -270,15 +315,16 @@ background-color: #555
 
 
 
+
 tr :first-child {
   min-width: 150px;
 }
 
-#shop-trailer, #shop-description {
+#shop-trailer, #shop-descriptions {
   padding: 0;
 }
 
-#shop-description {
+#shop-descriptions {
   padding-left: 10px;
   height: 400px;
   background-color: #F07D0C;
@@ -287,23 +333,19 @@ tr :first-child {
   color: white;
 }
 
-#shop-description h4 {
+#shop-descriptions h4 {
   margin-top: 60px;
 }
 
-table {
+.myTable {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 
 
-#shop-description h4, #shop-description table tr td:first-child {
+#shop-descriptions h4, #shop-descriptions .myTable tr td:first-child {
   color: #2F2D2D;
   font-weight: bold;
 }
 
-#shop-posters {
-  width: 80%;
-  margin: 0 auto;
-}

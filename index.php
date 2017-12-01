@@ -8,13 +8,21 @@
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 		<!-- JQuery -->
-		<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script
+			  src="http://code.jquery.com/jquery-1.12.4.min.js"
+			  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+			  crossorigin="anonymous"></script>
 
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- My Slideshow -->
+		
+	    <!-- jQuery Slidey 0.0.1 -->
+	    <link href="Slidey/dist/jquery.slidey.css" rel="stylesheet">
+	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+	    <script src="Slidey/jquery.slidey.js"></script>
+	    <script src="Slidey/dist/jquery.dotdotdot.min.js"></script>
 
 		<!-- My CSS -->
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="PgwSlider-master/pgwslider.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">	
 
 	</head>
 	<body>
@@ -88,51 +96,38 @@
 			</section>
 
 			<header>
-	
-				<ul class="pgwSlider">
+				
+				<div id="slidey" style="display:none;">
 					
-					<li>
+					<ul>
+						<li>
+							<img src="img/drive-movie-6.jpg">
+							<p class="title">Drive</p>
+							<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</li>
+						<li>
+							<img src="img/guardians-of-the-galaxy.jpg">
+							<p class="title">Guardians Of The Galaxy</p>
+							<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</li>
+						<li>
+							<img src="img/interstellar.jpg">
+							<p class="title">Interstellar</p>
+							<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</li>
+						<li>
+							<img src="img/mad-max-fury-road.jpg">
+							<p class="title">Mad Max Fury Road</p>
+							<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</li>
+						<li>
+							<img src="img/the-walking-dead.jpg">
+							<p class="title">The Walking Dead</p>
+							<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</li>
+					</ul>
 
-						<img src="img/drive-movie-6.jpg" data-description="The Words Can't Describe It">
-						<span>DRIVE</span>
-
-					</li>
-
-					<li>
-
-						<img src="img/guardians-of-the-galaxy.jpg" data-description="One Of The Best From MCU">
-						<span>GUARDIANS OF THE GALAXY</span>
-
-					</li>
-
-					<li>
-
-						<img src="img/interstellar.jpg" data-description="...Just Watch it">
-						<span>INTERSTELLAR</span>
-
-					</li>
-
-					<li>
-
-						<img src="img/mad-max-fury-road.jpg" data-description="True Jewell Of Sci-fi - A Thing Of Beauty">
-						<span>MAD MAX FURY ROAD</span>
-
-					</li>
-
-					<li>
-
-						<img src="img/the-walking-dead.jpg" data-description="You Need To Learn About Lucille">
-						<span>THE WALKING DEAD SEASON 7</span>
-
-					</li>
-
-					<li>
-						
-						<img src="img/vikings.jpg" data-description="Ragnar And His Friends Are Not Done With England">
-						<span>VIKINGS SEASON 3</span>
-					</li>
-
-				</ul>
+				</div>
 
 			</header>
 
@@ -161,7 +156,7 @@
 										<button type="button" class="close" data-dismiss="modal">&times;</button>
 										<h4 class="text-center"></h4>
 									</div>
-									<div class="modal-body">
+									<div class="modal-body embed-responsive embed-responsive-16by9">
 										<!-- Here comes the iframe-->
 									</div>
 									
@@ -790,11 +785,11 @@
 								<div id="shop-trailer" class="col-sm-12 col-md-7 embed-responsive embed-responsive-16by9">
 								</div>
 
-								<div id="shop-description" class="col-sm-12 col-md-5">
+								<div id="shop-descriptions" class="col-sm-12 col-md-5">
 									
 									<h4 class="text-center"></h4>
 
-									<table>
+									<table class="myTable">
 										
 										<tr>
 											<td>
@@ -862,8 +857,7 @@
 			</footer>
 
 		</div>
-
-		<script type="text/javascript" src="PgwSlider-master/pgwslider.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/alle_cine.js"></script>
 	</body>
 </html>

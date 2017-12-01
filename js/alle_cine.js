@@ -1,14 +1,15 @@
 $(document).ready(
 	function () {
 
+// SLIDE-SHOW
 
-		$(".pgwSlider").pgwSlider(
-			{
-				 transitionDuration : 2000,
-				 maxHeight: 600,
-				 intervalDuration: 5000
-			}
-		);
+
+
+		$("#slidey").slidey(
+				{
+					interval: 5000
+				}
+			);
 
 
 
@@ -17,7 +18,7 @@ $(document).ready(
 
 		$("#btn-featured-plus").click(
 			function () {
-				$("#more-featured-2").slideToggle("slow");
+				$("#more-featured-movies").slideToggle("slow");
 
 				if ($(this).attr('id') == 'btn-featured-plus') {
 					$(this).text("MOINS DE FILMS");
@@ -183,16 +184,6 @@ $(document).ready(
 				price		: '65 euro',
 				poster		: 'img/walking-dead-mini.jpg',
 				trailer		: '<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/R1v0uFms68U" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>'
-			},
-
-			{
-				title		: 'Vikings Season 3',
-				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-				release_date: '2015',
-				genre		: 'historical',
-				price		: '65 euro',
-				poster		: 'img/vikings-mini.jpg',
-				trailer		: '<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/UQm9torR1K8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>'
 			}
 		];
 
@@ -298,7 +289,7 @@ $(document).ready(
 		function displayShopMovie (movie) {
 
 			$('#shop-trailer')		 .html(movie.trailer);
-			$('#shop-description h4').text(movie.title);
+			$('#shop-descriptions h4').text(movie.title);
 			$('#resume')			 .text(': ' + movie.resume);
 			$('#release-date')		 .text(': ' + movie.release_date);
 			$('#genre')				 .text(': ' + movie.genre);
