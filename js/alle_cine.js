@@ -7,7 +7,7 @@ $(document).ready(
 
 
 		$('#myModal').css('display', 'block');
-		$('main').css('display', 'none');
+		$('#overlay').css('backgroundColor', '#fff').css('opacity', '0.5');
 
 		function checkAge() {
 
@@ -28,7 +28,7 @@ $(document).ready(
 			else {
 				console.log('Youre a grown up');
 				$('#myModal').css('display', 'none');
-				$('main').css('display', 'block');
+				$('#overlay').css('opacity', '1');
 			}
 		}
 
@@ -132,6 +132,51 @@ $(document).ready(
 				genre		: 'action',
 				price		: '1245 euro',
 				poster		: 'img/deadpool.jpg'
+			},
+
+			{
+				title		: 'The Purge',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2015',
+				genre		: 'policier',
+				price		: '12 euro',
+				poster		: 'img/the-purge.jpg'
+			},
+
+			{
+				title		: 'Blood',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2015',
+				genre		: 'action',
+				price		: '15 euro',
+				poster		: 'img/blood.jpg'
+			},
+
+			{
+				title		: 'Death Note',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2015',
+				genre		: 'policier',
+				price		: 'Over 9000!',
+				poster		: 'img/death-note.jpg'
+			},
+
+			{
+				title		: 'Fairy Tail',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2015',
+				genre		: 'action',
+				price		: '15 euro',
+				poster		: 'img/fairy-tail.jpg'
+			},
+
+			{
+				title		: 'Tentacles Shindeiru!',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2015',
+				genre		: 'policier',
+				price		: 'Over 9000!',
+				poster		: 'img/tentacles.jpg'
 			},
 
 			{
