@@ -6,11 +6,132 @@ $(document).ready(
 
 
 		$("#slidey").slidey(
-				{
-					interval: 5000
-				}
-			);
+			{
+				interval: 5000
+			}
+		);
 
+
+
+
+//FEATURED MOVIES DISPLAY
+
+
+
+		var featuredMovies = [
+			{
+				title		: 'OSS 117',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2006',
+				genre		: 'policier',
+				price		: '15 euro',
+				poster		: 'img/oss-117.jpg'
+
+			},
+
+			{
+				title		: 'Samurai Cop 2',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '1989',
+				genre		: 'action',
+				price		: '5 euros',
+				poster		: 'img/samurai-cop-2.jpg'
+			},
+
+			{
+				title		: 'Squid No Lovo',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2016',
+				genre		: 'hentai-tentacles',
+				price		: '125 euro',
+				poster		: 'img/drawn-tentacle-squid.jpg'
+			},
+
+			{
+				title		: 'Blacklist s1',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2015',
+				genre		: 'action',
+				price		: '15 euro',
+				poster		: 'img/blacklist.jpg'
+
+			},
+
+			{
+				title		: 'Sherlock s2',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2015',
+				genre		: 'policier',
+				price		: '15 euro',
+				poster		: 'img/sherlock.jpg'
+			},
+
+			{
+				title		: 'Sharknado 5',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2015',
+				genre		: 'action',
+				price		: '65 euro',
+				poster		: 'img/sharknado.jpg'
+			},
+
+			{
+				title		: 'Hot Fuzz',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2015',
+				genre		: 'policier',
+				price		: '15 euro',
+				poster		: 'img/hot-fuzz.jpg'
+			},
+
+			{
+				title		: 'Deadpool',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: '2015',
+				genre		: 'action',
+				price		: '1245 euro',
+				poster		: 'img/deadpool.jpg'
+			},
+
+			{
+				title		: 'Poor soul...',
+				resume		: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+				release_date: 'too late',
+				genre		: 'hentai-tentacles',
+				price		: 'heaven',
+				poster		: 'img/error-404.jpg'
+			}
+		];
+
+		function displayMoviesAndSeries (locationId, tab, row, column) {
+
+			for (var i = 0; i < row; i++) {
+
+				for (var j = 0; j < column; j++) {
+
+					var k = Math.floor(Math.random() * tab.length);
+					console.log(tab[k].title);
+					$('#' + locationId).append(
+
+						'<div class="panel panel-default ' + tab[k].genre +'">' +
+							'<div class="panel-body">' +
+								'<img class="img-responsive" src="' + tab[k].poster + '">' +
+							'</div>' +
+							'<div class="panel-footer">' +
+								'<h4 class="text-center">' + tab[k].title + '</h4>' +
+								'<p>' + tab[k].release_date + '</p>' +
+							'</div>' +
+						'</div>'
+					);
+				}
+				
+			}
+		}
+
+		displayMoviesAndSeries('visible-featured-movies', featuredMovies, 2, 6);
+		displayMoviesAndSeries('more-featured-movies'	, featuredMovies, 2, 6);
+		displayMoviesAndSeries('visible-featured-series', featuredMovies, 2, 6);
+		displayMoviesAndSeries('more-featured-series'	, featuredMovies, 2, 6);
 
 
 //SHOW-MORE BUTTONS
@@ -219,6 +340,7 @@ $(document).ready(
 			$('#films').append(myDiv);
 		}
 
+		//Stop the video when modal is dead
 		$('#screen').on('hidden.bs.modal', 
 			function () {
 			    $("#screen iframe").attr("src", $("#screen iframe").attr("src"));

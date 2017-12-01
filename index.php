@@ -187,277 +187,12 @@
 
 							<br>
 							
-							<div class="twelves-movies">
+							<div id="visible-featured-movies">
 
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/oss-117.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
-										<p>2006</p>
-									</div>
-								
-								</div>
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/oss-117.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/oss-117.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/oss-117.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/oss-117.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/oss-117.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/oss-117.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/samurai-cop-2.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Samurai Cop 2</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/samurai-cop-2.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Samurai Cop 2</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/samurai-cop-2.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Samurai Cop 2</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/samurai-cop-2.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Samurai Cop 2</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/samurai-cop-2.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Samurai Cop 2</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
 								
 							</div>
 
 							<div id="more-featured-movies">
-
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/samurai-cop-2.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Samurai Cop 2</h4>
-										<p>2006</p>
-									</div>
-								
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/samurai-cop-2.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Samurai Cop 2</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default hentai-tentacles">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/drawn-tentacle-squid.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Squid no Lovo</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default hentai-tentacles">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/drawn-tentacle-squid.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Squid no Lovo</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default hentai-tentacles">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/drawn-tentacle-squid.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Squid no Lovo</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default hentai-tentacles">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/drawn-tentacle-squid.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Squid no Lovo</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default hentai-tentacles">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/drawn-tentacle-squid.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Squid no Lovo</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default hentai-tentacles">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/drawn-tentacle-squid.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Squid no Lovo</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default hentai-tentacles">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/drawn-tentacle-squid.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Squid no Lovo</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/oss-117.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/oss-117.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/oss-117.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Caire Nid d'Espions</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
 								
 							</div>
 
@@ -488,277 +223,11 @@
 
 							<br>
 							
-							<div class="twelves-movies">
-
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/blacklist.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Blacklist</h4>
-										<p>2006</p>
-									</div>
-								
-								</div>
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/blacklist.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Blacklist</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/blacklist.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Blacklist</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/blacklist.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Blacklist</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/blacklist.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Blacklist</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default action">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/blacklist.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Blacklist</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/sherlock.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Sherlock</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/sherlock.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Sherlock</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/sherlock.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Sherlock</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/sherlock.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Sherlock</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/sherlock.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Sherlock</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/sherlock.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Sherlock</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
+							<div id="visible-featured-series">
 								
 							</div>
 
 							<div id="more-featured-series">
-
-								<div class="panel panel-default hentai-tentacles">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/error-404.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">You Made The Pope Sad</h4>
-										<p>2006</p>
-									</div>
-								
-								</div>
-								<div class="panel panel-default hentai-tentacles">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/error-404.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">You Made The Pope Sad</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default hentai-tentacles">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/error-404.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">You Made The Pope Sad</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default hentai-tentacles">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/error-404.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">You Made The Pope Sad</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default hentai-tentacles">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/error-404.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">You Made The Pope Sad</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default hentai-tentacles">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/error-404.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">You Made The Pope Sad</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/sherlock.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Sherlock</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/sherlock.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Sherlock</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/sherlock.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Sherlock</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/sherlock.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Sherlock</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/sherlock.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Sherlock</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
-								<div class="panel panel-default policier">
-
-									<div class="panel-body">
-										<img class="img-responsive" src="img/sherlock.jpg">
-									</div>
-									<div class="panel-footer">
-										<h4 class="text-center">Sherlock</h4>
-										<p>2006</p>
-									</div>
-									
-								</div>
 								
 							</div>
 
@@ -847,6 +316,48 @@
 				</section>
 
 				<section id="contact">
+
+					<div class="movies-container">
+
+						<h4>CONTACT</h4>
+						
+						<div class="movies">
+
+							<div class="row">
+
+								<form class="form-horizontal col-xs-offset-2 col-xs-8" action="">
+
+									<div class=" col-md-6">
+										<input type="text" class="form-control" placeholder="FIRST NAME" name="firstName">
+									</div>
+
+									<div class="col-md-6">
+										<input type="text" class="form-control" placeholder="LAST NAME" name="lastName">
+									</div>
+
+									<div class="col-md-6">
+										<input type="text" class="form-control" placeholder="EMAIL" name="email">
+									</div>
+
+									<div class="col-md-6">
+										<input type="text" class="form-control" placeholder="SUBJECT" name="subject">
+									</div>
+
+									<div id="textarea" class="col-md-12">
+										<textarea rows="6" cols="146" class="form-control" placeholder="YOUR MESSAGE"></textarea>
+									</div>
+
+									<div class="col-md-2">
+										<button type="submit"  id="submit" class="btn btn-default">SEND MESSAGE</button>
+									</div>
+
+								</form>
+
+							</div>
+							
+						</div>
+
+					</div>
 					
 				</section>
 

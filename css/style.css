@@ -179,22 +179,6 @@ background-color: #2196F3;
 background-color: #f44336;
 }
 
-#contact {
-/* top: 200px; */
-background-color: #555
-}
-
-
-
-
-/* HEADER */
-
-
-
-/*#slidey {
-  display: none;
-}*/
-
 
 
 
@@ -250,7 +234,7 @@ background-color: #555
 
 .toggle-movies button {
   background-color: #F07D0C;
-  color: white;
+  color: #2F2D2D;
   border: 0;
 }
 
@@ -282,7 +266,7 @@ background-color: #555
 
 #films .panel-footer, #shop-posters .panel-footer {
   max-width: 200px;
-  background-color:  #2F2D2D;
+  background-color: #2F2D2D;
 }
 
 #screen {
@@ -349,3 +333,17 @@ tr :first-child {
   font-weight: bold;
 }
 
+
+
+
+/* CONTACT */
+
+#contact input, #textarea, #contact button {
+  margin-top: 15px;
+  border-radius: 0;
+}
+ 
+#contact button {
+  background-color: #2F2D2D;
+  color: #F07D0C;
+}
