@@ -213,6 +213,10 @@ background-color: #f44336;
   margin-top: 15px;
 }
 
+.panel-body {
+  padding: 1px; 
+}
+
 .panel-footer {
   padding-bottom: 0;
   white-space: nowrap;
